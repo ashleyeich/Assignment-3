@@ -1,0 +1,69 @@
+body {
+    /* background-color: slateblue; */
+    font-size: 1em;
+}
+
+.border {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 20%;
+}
+
+img {
+    width: 290px;
+}
+.player {
+    overflow: hidden;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(103, 216, 103);
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.playlist {
+    overflow: hidden;
+    background-image: linear-gradient(180deg, rgb(103, 216, 103), white );
+    width: 100%;
+    height: 200px;
+}
+
+#audioPlaylist {
+    list-style: none;
+    margin: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-between;
+    height: 100%;
+}
+
+.track-name {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button {
+    background: white;
+    border: none;
+    margin-left: 4em;
+    border-radius: 5px;
+}
+
+.play {
+    font-size: 2em;
+    color: blue;
+}

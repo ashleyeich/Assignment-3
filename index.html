@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Player</title>
+        <meta name="description" content="This is a music player">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/1d0f30663e.js" crossorigin="anonymous"></script>
+    </head>
+<body>
+
+    <div class="border"> 
+        <section class="player" id="audioPlayer">
+            <img src="https://www.stylist.co.uk/images/app/uploads/2019/10/17081956/taylor-swift-crop-1618069124-1090x1090.jpg?w=256&h=256&fit=max&auto=format%2Ccompress">
+            <button 
+                    id="playPause"
+                    class="play-pause" 
+                    data-play="Play" 
+                    data-pause="Pause">
+                    Play
+            </button>
+            <input type="range" id="trackVolume" min="0" max="1" step="0.001" value="0">
+        </section>
+        
+        <section class="playlist">
+            <h2>Best Taylor Swift Songs</h2>
+            <ul id="audioPlaylist">
+                <li 
+                    data-src="https://cdn.pixabay.com/audio/2021/11/13/audio_cb4f1212a9.mp3"
+                    data-name="Getaway Car"
+                    data-album="Reputation">
+                    <b class="track-name">Getaway Car</b><div>Reputation</div>
+                </li>
+                <li 
+                    data-src="https://cdn.pixabay.com/audio/2021/11/24/audio_82498b22da.mp3"
+                    data-name="Out of the Woods"
+                    data-album="1989">
+                    <b class="track-name">Out of the Woods</b><div>1989</div>
+                </li>
+                <li 
+                    data-src="https://cdn.pixabay.com/audio/2021/11/25/audio_91b32e02f9.mp3"
+                    data-name="Betty"
+                    data-album="Folklore">
+                    <b class="track-name">Betty</b><div>Folklore</div>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+
+</body>
+
+
+<script src="https://juneate.github.io/music-playlist-player/js/script.js" type="module" defer></script>
+  
+
+</html>
